@@ -8,5 +8,5 @@ this could lead to a lot of complications down the line. Also, the second stage
 has a lot more changes added to it compared to the Stage1 of the assignment.
 
 ### Some other reasons...
-- Cloning the repo wont take too long
+- Cloning this repo wont take too long
 - Wont have to worry about accedentally changing anything in the previous stage
