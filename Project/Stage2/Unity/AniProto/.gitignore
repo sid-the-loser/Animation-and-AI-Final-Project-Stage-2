@@ -34,10 +34,14 @@
 # (added) Rider cache directory (I don't really need it anywhere)
 /.idea/
 
-# (added) Visual Studio cache directory (vscode stuff is taken from oodum)
+# Visual Studio cache directory
 .vs/
+# (added) (vscode stuff is taken from oodum)
 .vscode/
 .vsconfig
+
+# (added) Blender backup files need not be uploaded to a repo (can be commented if you're paranoid)
+*.blend1
 
 # Gradle cache directory
 .gradle/
