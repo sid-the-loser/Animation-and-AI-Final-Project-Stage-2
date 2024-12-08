@@ -1,1 +1,1 @@
-*Video will be added here soon*
+PART2 - ![](https://youtu.be/-SglGLpEE-U)
