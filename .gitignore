@@ -1,2 +1,5 @@
 # I didn't need the backup file to be uploaded to github
 *.blend1
+
+# No video file shall be uploaded directly to github
+*.mp4
