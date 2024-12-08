@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Main.Scripts.CutScene
 {
@@ -55,6 +56,16 @@ namespace Main.Scripts.CutScene
                     ToggleEnemyRagdoll(true);
                 }
             }
+        }
+
+        public void GoBack()
+        {
+            SceneManager.LoadScene("Main/Scenes/MainMenu");
+        }
+
+        public void ReloadScene()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
