@@ -1,1 +1,1 @@
-PART2 - ![](https://youtu.be/-SglGLpEE-U)
+PART2 - https://youtu.be/-SglGLpEE-U
