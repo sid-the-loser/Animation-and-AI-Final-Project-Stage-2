@@ -1,15 +1,10 @@
-using System;
-using System.Collections;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace Main.Scripts
+namespace Main.Scripts.CutScene
 {
     public class CutSceneManager : MonoBehaviour
     {
-        [SerializeField] private GameObject player;
         [SerializeField] private GameObject enemy;
-        [SerializeField] private float enemyDeathDelaySeconds;
 
         private Rigidbody[] _enemyRigidbodies;
         private Animator _enemyAnimator;
@@ -27,7 +22,7 @@ namespace Main.Scripts
             ToggleEnemyRagdoll(false);
         }
 
-        private void Update()
+        /*private void Update() // I used for input management
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -35,7 +30,7 @@ namespace Main.Scripts
                 _crateFlag = false;
                 ToggleEnemyRagdoll(_flag);
             }
-        }
+        }*/
 
         private void ToggleEnemyRagdoll(bool value)
         {
@@ -61,10 +56,5 @@ namespace Main.Scripts
                 }
             }
         }
-
-        /*private IEnumerator Death()
-        {
-            yield return WaitForSeconds(enemyDeathDelaySeconds);
-        }*/
     }
 }

@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace Main.Scripts
+namespace Main.Scripts.CutScene
 {
     public class PlayerAnimationManager : MonoBehaviour
     {
@@ -19,6 +18,7 @@ namespace Main.Scripts
 
         private void FixedUpdate()
         {
+            // using transform was not a good idea, but since the player object is moving slowly, it should be okay
             transform.position += transform.forward * (_currentSpeed * Time.deltaTime);
         }
 

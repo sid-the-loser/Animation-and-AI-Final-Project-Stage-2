@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.1802842, g: 0.22571528, b: 0.30692315, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 124b372744e98844f8782f88c6adf3b7, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -159,9 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa04ef23335ece4e9f98f09338a6032, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1177165519}
   enemy: {fileID: 55984066}
-  enemyDeathDelaySeconds: 0
 --- !u!4 &1005992740
 Transform:
   m_ObjectHideFlags: 0
@@ -409,18 +407,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141935051}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: -0.117835864, y: 0.8703658, z: -0.40585822, w: -0.25269985}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1177165519 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1135235742409908476, guid: 994a820a40fce6b4db53e2f566739405, type: 3}
-  m_PrefabInstance: {fileID: 4975283649096075205}
-  m_PrefabAsset: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 212.38, z: 0}
 --- !u!1 &1368215929
 GameObject:
   m_ObjectHideFlags: 0
